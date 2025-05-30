@@ -1,0 +1,55 @@
+[cmp]
+icon_file = ""
+icon_folder  = ""
+icon_command = ""
+
+[which]
+separator = " "
+
+[notify]
+icon_info  = ""
+icon_warn  = ""
+icon_error = ""
+
+[mgr]
+preview_hovered = { reversed = true }
+border_symbol = " "
+
+[status]
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+[icon]
+globs = []
+dirs  = []
+files = []
+exts  = []
+conds = []
+
+[tabs]
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+[filetype]
+rules = [
+  # Images
+  { mime = "image/*", fg = "yellow" },
+
+  # Media
+  { mime = "{audio,video}/*", fg = "magenta" },
+
+  # Archives
+  { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "red" },
+
+  # Documents
+  { mime = "application/{pdf,doc,rtf}", fg = "cyan" },
+
+
+  # Custom
+  { name = "*", is = "dummy", bg = "red", bold = true },
+  { name = "*/", is = "dummy", bg = "red", bold = true },
+  { name = "*", is = "orphan", bg = "red", bold = true },
+  { name = "*", is = "exec"  , fg = "green", bold = true },
+
+  { name = "*/", fg = "blue", bold = true }
+]
