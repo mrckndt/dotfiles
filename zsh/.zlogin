@@ -1,4 +1,4 @@
-[[ "$(uname)" == 'Darwin' ]] && export PATH="/opt/homebrew/bin:$PATH"
+[[ "$(uname)" == 'Darwin' ]] && export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 if builtin type -p dircolors &> /dev/null; then
   eval "$(dircolors)"
