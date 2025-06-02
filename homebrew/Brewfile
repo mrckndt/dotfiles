@@ -5,6 +5,7 @@ brew "bmon"
 brew "coreutils"
 brew "diffutils"
 brew "dua-cli"
+brew "exiftool" # yazi
 brew "fd" # yazi
 brew "ffmpeg" # yazi
 brew "findutils"
@@ -16,6 +17,7 @@ brew "imagemagick" # yazi
 brew "jq" # yazi
 brew "k3d"
 brew "kubectl"
+brew "mediainfo" # yazi
 #brew "minikube"
 brew "neovim"
 brew "nmap"
@@ -26,13 +28,16 @@ brew "resvg" # yazi
 brew "ripgrep" # yazi
 brew "rsync"
 brew "sevenzip" # yazi
+brew "shellcheck"
 brew "sshuttle"
 brew "stow"
 brew "tmux"
 brew "tree"
+brew "wget"
 brew "yazi"
 brew "yt-dlp"
 brew "zoxide"
+brew "zsh"
 
 cask "bitwarden"
 #cask "cyberduck"
