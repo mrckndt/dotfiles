@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -euf -o pipefail
+
+/opt/homebrew/bin/brew update
+/opt/homebrew/bin/brew bundle install --file="$1" --cleanup --zap
+/opt/homebrew/bin/brew upgrade
