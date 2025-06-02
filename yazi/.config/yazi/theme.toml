@@ -44,12 +44,14 @@ rules = [
   # Documents
   { mime = "application/{pdf,doc,rtf}", fg = "cyan" },
 
+  # Special files
+  { name = "*", is = "orphan", bg = "red" },
 
-  # Custom
-  { name = "*", is = "dummy", bg = "red", bold = true },
-  { name = "*/", is = "dummy", bg = "red", bold = true },
-  { name = "*", is = "orphan", bg = "red", bold = true },
+  # Dummy files
+  { name = "*", is = "dummy", bg = "red" },
+  { name = "*/", is = "dummy", bg = "red" },
+
+
   { name = "*", is = "exec"  , fg = "green", bold = true },
-
   { name = "*/", fg = "blue", bold = true }
 ]
