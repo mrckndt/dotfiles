@@ -1,10 +1,10 @@
-[[mgr.prepend_keymap]]
-on   = "!"
-for  = "unix"
-run  = 'shell "$SHELL" --block'
-desc = "Open $SHELL here"
+[mgr]
+prepend_keymap = [
+  { on = "q", run = "close", desc = "Close the current tab, or quit if it's last" },
+  { on = "!", run = "shell \"$SHELL\" --block", desc = "Open $SHELL here", for = "unix" },
+]
 
-[[input.prepend_keymap]]
-on   = "<Esc>"
-run  = "close"
-desc = "Cancel input"
+[input]
+prepend_keymap = [
+  { on = "<Esc>", run = "close", desc = "Cancel input" },
+]
