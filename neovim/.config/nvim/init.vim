@@ -39,11 +39,7 @@ nnoremap <silent> <C-g> :GFiles?<CR>
 nnoremap <silent> <C-m> :Buffers<CR>
 nnoremap <silent> <C-o> :Files<CR>
 nnoremap <silent> <C-q> :Bd<CR>
-if has('mac')
-  nnoremap <silent> <C-/> :Rg<CR>
-elseif has('linux')
-  nnoremap <silent> <C-_> :Rg<CR>
-endif
+nnoremap <silent> <C-s> :Rg<CR>
 
 nnoremap <silent> <esc><esc> :nohls<CR>
 
