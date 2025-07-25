@@ -56,6 +56,7 @@ zstyle ':vcs_info:*' actionformats "[%B%F{cyan}%b%f%%b|%a]"
 
 local shell_indicator=""
 [[ -f /run/.containerenv && -f /run/.toolboxenv ]] && shell_indicator="%F{13}⬢%f "
+[[ -n "${YAZI_ID}" ]] && shell_indicator="🗂️ "
 
 local user_color="red"
 let $UID && user_color="12"
