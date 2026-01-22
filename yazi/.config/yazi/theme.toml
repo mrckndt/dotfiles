@@ -12,12 +12,15 @@ icon_warn  = ""
 icon_error = ""
 
 [mgr]
-preview_hovered = { reversed = true }
 border_symbol = " "
 
 [status]
 sep_left = { open = "", close = "" }
 sep_right = { open = "", close = "" }
+
+[indicator]
+preview = { reversed = true }
+padding = { open = " ", close = " " }
 
 [icon]
 globs = []
@@ -29,29 +32,3 @@ conds = []
 [tabs]
 sep_inner = { open = "", close = "" }
 sep_outer = { open = "", close = "" }
-
-[filetype]
-rules = [
-  # Images
-  { mime = "image/*", fg = "yellow" },
-
-  # Media
-  { mime = "{audio,video}/*", fg = "magenta" },
-
-  # Archives
-  { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "red" },
-
-  # Documents
-  { mime = "application/{pdf,doc,rtf}", fg = "cyan" },
-
-  # Special files
-  { name = "*", is = "orphan", bg = "red" },
-
-  # Dummy files
-  { name = "*", is = "dummy", bg = "red" },
-  { name = "*/", is = "dummy", bg = "red" },
-
-
-  { name = "*", is = "exec"  , fg = "green", bold = true },
-  { name = "*/", fg = "blue", bold = true }
-]
