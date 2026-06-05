@@ -4,6 +4,6 @@ set -euf -o pipefail
 
 /opt/homebrew/bin/brew update
 /opt/homebrew/bin/brew upgrade
-/opt/homebrew/bin/brew bundle install --file="$1" --cleanup --zap
+/opt/homebrew/bin/brew bundle install --file="$1" --cleanup --zap --force-cleanup
 /opt/homebrew/bin/brew autoremove
 [[ "${2:-}" == "--prune" ]] && /opt/homebrew/bin/brew cleanup --prune=all
