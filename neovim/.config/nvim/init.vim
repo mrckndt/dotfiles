@@ -1,13 +1,14 @@
 call plug#begin('~/.config/nvim/plugins')
-Plug 'jnurmine/Zenburn'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-signify'
+Plug 'morhetz/gruvbox', { 'tag': 'v3.0.1-rc.0' }
 Plug 'LnL7/vim-nix'
 call plug#end()
 
 if ($TERM=~"xterm-256color" || $TERM=~"screen-256color")
-  colorscheme zenburn
+  let g:gruvbox_contrast_dark = "soft"
+  colorscheme gruvbox
 endif
 
 filetype plugin indent on
@@ -23,7 +24,6 @@ set list listchars=tab:▸\ ,trail:·
 set mouse=a
 set nofoldenable
 set nojoinspaces
-set notermguicolors
 set nowrap
 set number
 set shiftwidth=2
