@@ -1,0 +1,45 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent_buffer_font_size": 15.0,
+  "agent": {
+    "default_model": {
+      "provider": "mistral",
+      "model": "mistral-medium-latest",
+      "enable_thinking": false,
+    },
+    "favorite_models": [
+      {
+        "provider": "mistral",
+        "model": "mistral-medium-latest",
+        "enable_thinking": false,
+      },
+      {
+        "provider": "mistral",
+        "model": "mistral-large-latest",
+        "enable_thinking": false,
+      },
+      {
+        "provider": "mistral",
+        "model": "devstral-medium-latest",
+        "enable_thinking": false,
+      },
+    ],
+    "model_parameters": [],
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "Fantasque Sans Mono",
+  "show_whitespaces": "all",
+  "vim_mode": true,
+  "theme": "Gruvbox Dark Soft",
+}
