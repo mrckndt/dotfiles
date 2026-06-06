@@ -14,24 +14,7 @@
       "model": "mistral-medium-latest",
       "enable_thinking": false,
     },
-    "favorite_models": [
-      {
-        "provider": "mistral",
-        "model": "mistral-medium-latest",
-        "enable_thinking": false,
-      },
-      {
-        "provider": "mistral",
-        "model": "mistral-large-latest",
-        "enable_thinking": false,
-      },
-      {
-        "provider": "mistral",
-        "model": "devstral-medium-latest",
-        "enable_thinking": false,
-      },
-    ],
-    "model_parameters": [],
+    "default_profile": "write",
   },
   "telemetry": {
     "diagnostics": false,
