@@ -31,7 +31,7 @@ set showbreak=↪\
 set splitbelow
 set splitright
 set statusline=\(%n\)\ %<%.99f\ %y\ %w%m%r%=%-14.(%l,%c%V%)\ %P
-set textwidth=120
+set textwidth=140
 set wrapscan
 
 " fzf mappings
