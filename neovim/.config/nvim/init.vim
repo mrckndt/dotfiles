@@ -1,4 +1,5 @@
 call plug#begin('~/.config/nvim/plugins')
+Plug 'jnurmine/Zenburn'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-signify'
@@ -8,7 +9,9 @@ call plug#end()
 
 if ($TERM=~"xterm-256color" || $TERM=~"screen-256color")
   let g:gruvbox_contrast_dark = "soft"
-  colorscheme gruvbox
+  colorscheme zenburn
+  hi StatusLine gui=reverse
+  hi StatusLineNC gui=reverse
 endif
 
 filetype plugin indent on
