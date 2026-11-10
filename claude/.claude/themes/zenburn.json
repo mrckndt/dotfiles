@@ -29,18 +29,18 @@
     "fastMode": "#ffcfaf",
     "fastModeShimmer": "#ffd7a7",
 
-    "diffAdded": "#313c36",
-    "diffRemoved": "#41363c",
-    "diffAddedDimmed": "#2e3330",
-    "diffRemovedDimmed": "#3d3535",
-    "diffAddedWord": "#385f38",
-    "diffRemovedWord": "#464646",
+    "diffAdded": "#5f7f5f",
+    "diffRemoved": "#7c4343",
+    "diffAddedDimmed": "#3f5f3f",
+    "diffRemovedDimmed": "#6c3333",
+    "diffAddedWord": "#7f9f7f",
+    "diffRemovedWord": "#9c6363",
 
     "userMessageBackground": "#484848",
     "userMessageBackgroundHover": "#444444",
     "bashMessageBackgroundColor": "#333333",
     "memoryBackgroundColor": "#313633",
-    "selectionBg": "#385f38",
+    "selectionBg": "#2f2f2f",
     "composerSidebarBackground": "#343434",
 
     "rate_limit_fill": "#7f9f7f",
@@ -58,3 +58,4 @@
     "cyan_FOR_SUBAGENTS_ONLY": "#93b3a3"
   }
 }
+
