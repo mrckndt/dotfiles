@@ -24,12 +24,30 @@
       "Bash(git status:*)"
     ]
   },
+  "model": "sonnet",
   "statusLine": {
     "type": "command",
-    "command": "~/.claude/statusline.sh"
+    "command": "~/.claude/statusline.sh",
+    "hideVimModeIndicator": true
   },
+  "extraKnownMarketplaces": {
+    "compound-engineering-plugin": {
+      "source": {
+        "source": "github",
+        "repo": "EveryInc/compound-engineering-plugin"
+      }
+    }
+  },
+  "feedbackDrafts": "off",
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5-5": {},
+    "claude-sonnet-5-5": {},
+    "claude-haiku-5-5": {}
+  },
+  "tui": "fullscreen",
   "autoMemoryEnabled": false,
-  "theme": "auto",
+  "skipWorkflowUsageWarning": true,
+  "theme": "custom:zenburn",
   "editorMode": "vim"
 }
-
