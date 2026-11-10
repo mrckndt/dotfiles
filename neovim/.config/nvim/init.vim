@@ -3,12 +3,10 @@ Plug 'jnurmine/Zenburn'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'mhinz/vim-signify'
-Plug 'morhetz/gruvbox', { 'tag': 'v3.0.1-rc.0' }
 Plug 'LnL7/vim-nix'
 call plug#end()
 
 if ($TERM=~"xterm-256color" || $TERM=~"screen-256color")
-  let g:gruvbox_contrast_dark = "soft"
   colorscheme zenburn
   hi StatusLine gui=reverse
   hi StatusLineNC gui=reverse
