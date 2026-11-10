@@ -30,11 +30,11 @@
     "fastModeShimmer": "#ffd7a7",
 
     "diffAdded": "#5f7f5f",
-    "diffRemoved": "#7c4343",
+    "diffRemoved": "#9c6363",
     "diffAddedDimmed": "#3f5f3f",
     "diffRemovedDimmed": "#6c3333",
     "diffAddedWord": "#7f9f7f",
-    "diffRemovedWord": "#9c6363",
+    "diffRemovedWord": "#cc9393",
 
     "userMessageBackground": "#484848",
     "userMessageBackgroundHover": "#444444",
