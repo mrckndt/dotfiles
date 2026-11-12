@@ -9,7 +9,7 @@
     "inactive": "#9f9f9f",
     "inactiveShimmer": "#c3bf9f",
     "subtle": "#5b605e",
-    "suggestion": "#8cd0d3",
+    "suggestion": "#8c8cbc",
     "permission": "#93b3a3",
     "permissionShimmer": "#9ece9e",
     "remember": "#dca3a3",
@@ -45,11 +45,11 @@
 
     "rate_limit_fill": "#7f9f7f",
     "rate_limit_empty": "#5b605e",
-    "briefLabelYou": "#8cd0d3",
+    "briefLabelYou": "#8c8cbc",
     "briefLabelClaude": "#dfaf8f",
 
     "red_FOR_SUBAGENTS_ONLY": "#cc9393",
-    "blue_FOR_SUBAGENTS_ONLY": "#8cd0d3",
+    "blue_FOR_SUBAGENTS_ONLY": "#8c8cbc",
     "green_FOR_SUBAGENTS_ONLY": "#7f9f7f",
     "yellow_FOR_SUBAGENTS_ONLY": "#f0dfaf",
     "purple_FOR_SUBAGENTS_ONLY": "#bc8cbc",
