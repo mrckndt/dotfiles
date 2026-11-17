@@ -5,7 +5,6 @@ composer:
   shape: claude
   tokenRate: true
 theme:
-  light: light
   dark: zenburn
 update:
   auto: false
@@ -16,12 +15,11 @@ spelling:
   autocomplete: "off"
 hideThinkingBlock: true
 defaultThinkingLevel: auto
-proseOnlyThinking: true
 telemetry:
   otlpExportEnabled: false
 secrets:
   enabled: true
 dev:
-  autoqaConsent: granted
+  autoqa: false
 title:
   icons: boring
