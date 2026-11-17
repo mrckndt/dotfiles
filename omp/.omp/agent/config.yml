@@ -1,0 +1,27 @@
+modelRoles:
+  default: opencode-go/deepseek-v4.1-flash
+symbolPreset: unicode-noemoji
+composer:
+  shape: claude
+  tokenRate: true
+theme:
+  light: light
+  dark: zenburn
+update:
+  auto: false
+setupVersion: 3
+tui:
+  vimMode: true
+spelling:
+  autocomplete: "off"
+hideThinkingBlock: true
+defaultThinkingLevel: auto
+proseOnlyThinking: true
+telemetry:
+  otlpExportEnabled: false
+secrets:
+  enabled: true
+dev:
+  autoqaConsent: granted
+title:
+  icons: boring
