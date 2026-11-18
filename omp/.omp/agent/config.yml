@@ -36,8 +36,8 @@ statusLine:
   rightSegments:
     - collab
     - stream
-    - session_name
     - git
     - pr
+    - session_name
   transparent: true
   compactThinkingLevel: false
