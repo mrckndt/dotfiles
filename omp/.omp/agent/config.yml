@@ -14,7 +14,6 @@ tui:
 spelling:
   autocomplete: "off"
 hideThinkingBlock: true
-defaultThinkingLevel: auto
 telemetry:
   otlpExportEnabled: false
 secrets:
@@ -41,3 +40,4 @@ statusLine:
     - session_name
   transparent: true
   compactThinkingLevel: false
+  sessionAccent: false
