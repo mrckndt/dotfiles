@@ -23,3 +23,21 @@ dev:
   autoqa: false
 title:
   icons: boring
+statusLine:
+  preset: custom
+  leftSegments:
+    - vim
+    - model
+    - mode
+    - path
+    - context_pct
+    - cache_hit
+    - cost
+  rightSegments:
+    - collab
+    - stream
+    - session_name
+    - git
+    - pr
+  transparent: true
+  compactThinkingLevel: false
